@@ -1,5 +1,5 @@
 // Recent Post by Andito Blog
-function showlatestpostswiththumbs(t) {
+function recentpostanditoblog(t) {
     document.write('<ul class="recent_posts_andito">');
     for (var e = 0; e < posts_no; e++) {
         var r, n = t.feed.entry[e],
